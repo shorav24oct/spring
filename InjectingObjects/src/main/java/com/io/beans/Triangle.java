@@ -31,9 +31,9 @@ public class Triangle {
 	}
 	
 	public void draw() {
-		System.out.println("Point (" + pointA.getX() + ", " + pointA.getY() + " )");
-		System.out.println("Point (" + pointB.getX() + ", " + pointB.getY() + " )");
-		System.out.println("Point (" + pointC.getX() + ", " + pointC.getY() + " )");
+		System.out.println("Point (" + pointA.getX() + ", " + pointA.getY() + ")");
+		System.out.println("Point (" + pointB.getX() + ", " + pointB.getY() + ")");
+		System.out.println("Point (" + pointC.getX() + ", " + pointC.getY() + ")");
 	}
 
 }

@@ -24,7 +24,7 @@
 		<property name="x" value="0" />
 		<property name="y" value="0" />
 	</bean>
-	
-	<alias name="triangle" alias="t3"/>
+
+	<alias name="triangle" alias="t3" />
 
 </beans>
