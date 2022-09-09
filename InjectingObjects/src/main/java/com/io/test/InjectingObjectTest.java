@@ -9,7 +9,7 @@ public class InjectingObjectTest {
 
 	public static void main(String[] args) {
 		ApplicationContext applicationContext = new ClassPathXmlApplicationContext("spring-bean.xml");
-		Triangle triangle = (Triangle) applicationContext.getBean("triangle");
+		Triangle triangle = (Triangle) applicationContext.getBean("triangle-name");
 		triangle.draw();
 		((ClassPathXmlApplicationContext) applicationContext).close();
 	}
