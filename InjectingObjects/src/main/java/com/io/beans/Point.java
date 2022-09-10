@@ -1,6 +1,8 @@
 package com.io.beans;
 
-public class Point {
+import org.springframework.beans.factory.BeanNameAware;
+
+public class Point implements BeanNameAware{
 
 	private int x;
 	private int y;
@@ -19,6 +21,12 @@ public class Point {
 
 	public void setY(int y) {
 		this.y = y;
+	}
+
+	@Override
+	public void setBeanName(String name) {
+		System.out.println("bean name is : " + name);
+		
 	}
 
 }
